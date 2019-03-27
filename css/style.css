@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background:  rgb(212, 208, 208);
+    margin: 0;
+}
+
+.main{
+    width:100%;
+}
+
+.navbar-top{
+    width:100%;
+}
+
+.navbar-bottom{
+    width:100%;
+}
