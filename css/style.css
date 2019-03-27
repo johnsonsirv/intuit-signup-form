@@ -4,6 +4,8 @@
 body{
     background:  rgb(212, 208, 208);
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3em;
 }
 
 main{
@@ -14,5 +16,26 @@ nav {
 }
 
 footer {
+
+}
+
+.form-section{
+    background: rgb(255, 255, 255);
+    border: solid 1px rgb(207, 205, 205);
+    border-radius: 2px;
+}
+.intuit-form-header{
+
+}
+
+.intuit-form-description{
+
+}
+
+.intuit-form-footer{
+
+}
+
+.terms-conditions{
 
 }
