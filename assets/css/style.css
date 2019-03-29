@@ -3,7 +3,10 @@
   --main-blue: #0075c5;
   --main-gray: #8D9096;
 }
-* {
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
   box-sizing: border-box;
 }
 body{
