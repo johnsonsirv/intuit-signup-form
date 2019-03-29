@@ -1,6 +1,6 @@
 # intuit-signup-form
 Signup Form for Intuit. 
-See here - http://raw.githack.com/johnsonsirv/intuit-signup-form/dev/index.html
+See temporal live demo link here - http://raw.githack.com/johnsonsirv/intuit-signup-form/dev/index.html
 
 # Contributors
 Victor Johnson - https://github.com/johnsonsirv
