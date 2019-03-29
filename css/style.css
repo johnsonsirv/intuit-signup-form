@@ -21,18 +21,30 @@ nav {
   display:grid; 
   grid-template-columns: 90% 10%;
   align-items: center;
+  line-height:-563px;
+}
+.text-sect{
   text-align: right;
-  padding:0  20px;
-  line-height:0.4;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+.text-sect p{
+  line-height: 0.3;
+  font-size: 12px;
+  align-self: center;
+}
+.text-sect a{
+  color: var(--main-blue); 
+  text-decoration: none;
 }
 .sign-up{
-  width: 80%;
-  height: 5vh;
+  width: 75%;
+  height: 5.3vh;
   background: var(--main-blue); 
-  border: 1px solid var(--main-gray);
+  border: 1px solid #4c4c4c;
   border-radius: 5px;
   color: #fff;
-  font-size: 15px;
+  /* font-size: 15px; */
 }
 .sign-up .fas{
   margin:0 6px;
