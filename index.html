@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,74 +9,86 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-       <section class="text-sect">
-            <p>Already have an Intuit account?</p>
-            <p><a href="#">I forgot my UserID or Password </a></p>
-       </section>
-       <section>
-         <button class="sign-up"><span class="fas fa-lock"> </span>Sign In</button>
-       </section>
+      <section class="text-sect">
+        <p>Already have an Intuit account?</p>
+        <p><a href="#">I forgot my UserID or Password </a></p>
+      </section>
+      <section>
+        <button class="sign-up"><span class="fas fa-lock"> </span>Sign In</button>
+      </section>
     </nav>
     <main>
-         <section class="intuit-form-header">
-           <img class="intuit-logo" src="images/logos/intuit.png">
-            <div class="favicon-sect">
-                <p><img class="logo" src="images/logos/mint.png" alt="mint-logo"> &nbsp; mint</p>
-                <p><img class="logo" src="images/logos/quickbooks.png" alt="quickbooks-logo"> &nbsp; quickbooks</p>
-                <p><img  class="logo" src="images/logos/turbotax.jpg" alt="turbotax-logo"> &nbsp; turbotax</p>
-            </div>
-           
-         </section>
+      <section class="intuit-form-header">
+        <img class="intuit-logo" src="images/logos/intuit.png">
+        <div class="favicon-sect">
+          <div class="favicon-box">
+          <img src="images/logos/mint.png"> 
+          <p>mint</p>
+          </div>
+          <div class="favicon-sect">
+          <div class="favicon-box">
+          <img src="images/logos/quickbooks.png"> 
+          <p>quickbooks</p>
+          </div>
+          <div class="favicon-sect">
+          <div class="favicon-box">
+          <img src="images/logos/turbotax.png"> 
+          <p>turbotax</p>
+          </div>
 
-         <!-- For Section -->
-            <div class="form-section">
-                <div class="intuit-form-description">
-                    <h2>One Account.<br>Everything Intuit.</h2>
-                    <p>Create an account for all of Intuit's products including Mint. 
-                        <a href="#learn-more">Learn more</a></p>
-                </div>
-                <form>
-                    <div class="form-elements">
-                            <label>Email address</label>
-                            <input type="email" id="user_email" value="">
-                    </div>
-                    <div class="form-elements">
-                            <label>Phone (recommended)</label>
-                            <input type="text" id="user_phone" value=""><br>
-                            <span>standard calls, messaging or data may apply</span>
-                    </div>
-                    <div class="form-elements">
-                            <label>Password</label>
-                            <input type="password" id="password" value="">
-                    </div>
-                    <div class="form-elements">
-                            <label>Confirm password</label>
-                            <input type="password" id="confirm_password" value="">
-                    </div>
-                    <div class="form-elements">
-                            <button id="signup"><i class="fa fa"></i> Create Account</button>
-                    </div>
-                </form>
 
-                <div class="intuit-form-footer">
-                    <p>
-                            By clicking Create Account, you agree to our
-                            <a href="#google-terms-of-service">Terms of Service</a> and have 
-                            read and acknowledge our <a href="google-privacy">Privacy Statement</a>.
-                    </p>
-                    <div class="google-terms">
-                        <p>Invisible reCAPTCHA by <a href="google-privacy">Google Privacy Policy</a>
-                            <a href="#google-terms-of-service">and Terms of Use</a>.</p>
-                    </div>
-                </div>
-            </div>
-         <!-- Form Section -->
+        </div>
+
+      </section>
+      <!-- For Section -->
+      <div class="form-section">
+        <div class="intuit-form-description">
+          <h2>One Account.<br>Everything Intuit.</h2>
+          <p>Create an account for all of Intuit's products including Mint. 
+          <a href="#learn-more">Learn more</a></p>
+        </div>
+        <form>
+          <div class="form-elements">
+            <label>Email address</label>
+            <input type="email" id="user_email" value="" required>
+          </div>
+          <div class="form-elements">
+            <label>Phone (recommended)</label>
+            <input type="tel" id="user_phone" value="" required>
+            <span>standard calls, messaging or data may apply</span>
+          </div>
+          <div class="form-elements">
+            <label>Password</label>
+            <input type="password" id="password" value="" required><i class="fa fa-unlock"></i>
+          </div>
+          <div class="form-elements">
+            <label>Confirm password</label>
+            <input type="password" id="confirm_password" value="">
+          </div>
+          <div class="form-elements">
+            <button id="signup"><i class="fas fa-lock"></i> Create Account</button>
+          </div>
+        </form>
+
+        <div class="intuit-form-footer">
+          <div class="privacy"> <p>
+          By clicking Create Account, you agree to our
+          <a href="#google-terms-of-service">Terms of Service</a> and have 
+          read and acknowledge our <a href="google-privacy">Privacy Statement</a>.
+            </p></div>
+          <div class="google-terms">
+            <p>Invisible reCAPTCHA by <a href="google-privacy">Google Privacy Policy</a><span>&nbsp; and</span>
+            <a href="#google-terms-of-service">Terms of Use</a>.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Form Section -->
     </main>
     <footer>
-        
+
     </footer>
-</body>
+  </body>
 </html>
