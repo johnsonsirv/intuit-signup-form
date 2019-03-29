@@ -120,12 +120,15 @@ form{
   text-align: left;
 }
 label{
-  margin:5px 0;
+  margin:10px 0;
 }
 input{
   height:35px;
   border-radius: 3px;
   border: 1px solid #909090;
+}
+.confirm{
+  display: none;
 }
 #signup{
   background: var(--main-blue);
@@ -139,9 +142,9 @@ input:focus{
   outline: 1px solid var(--main-blue);
 }
 .fa-unlock{
-  position: absolute;
-  left: 60%;
-  top: 80%;
+  position: relative;
+  left: 90%;
+  bottom: 3.5vh;
   color: var(--main-gray);
 }
 .intuit-form-description{
@@ -179,9 +182,13 @@ form, .intuit-form-description *{
   font-size: 10px;
 }
 footer {
-  height: 10vh;
-  /* background: grey; */
-  /* margin-top: auto; */
+  height: 20vh;
+  padding-top: 2%;
+  width: 60vw;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #606060;;
 }
 
 
