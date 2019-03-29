@@ -13,9 +13,6 @@ body{
     font-size:0.9em;
 }
 
-main{
-    width:100%;
-}
 nav {
   width: 100vw;
   display:grid; 
@@ -50,11 +47,33 @@ nav {
   margin:0 6px;
   font-size: 13px;
 }
-footer {
-
+main{
+   width:35%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 auto;
+   margin-top: 2%;
 }
-
+.intuit-form-header{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intuit-logo{
+  width: 27%;
+  -webkit-filter: grayscale(60%);
+  filter: grayscale(60%); 
+  filter: contrast(0%);
+  margin: 0 auto;
+}
+.favicon-sect{
+  display: flex;
+  flex-direction: row;
+}
 .form-section{
+  width: 77%;
     background: rgb(255, 255, 255);
     border: solid 1px rgb(207, 205, 205);
     border-radius: 2px;
@@ -86,3 +105,8 @@ img{
     width:40px;
     height: 40px;
 }
+footer {
+
+}
+
+
