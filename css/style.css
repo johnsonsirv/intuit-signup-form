@@ -44,7 +44,9 @@ a:hover{
   border: 1px solid #4c4c4c;
   border-radius: 5px;
   color: #fff;
-  /* font-size: 15px; */
+}
+nav button{
+  cursor: pointer;
 }
 .sign-up .fa{
   margin:0 6px;
@@ -111,7 +113,6 @@ main{
 form{
   width: 85%;
   padding: 5% 0;
-  /* letter-spacing: 2px; */
 }
 .form-elements{
   display: flex;
@@ -140,6 +141,7 @@ input{
   border: 2px solid var(--main-blue);
   color: #FFF;
   font-size: 1.2em;
+  cursor: pointer;
 }
 input:focus{
   outline: 1px solid var(--main-blue);
