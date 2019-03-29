@@ -29,6 +29,7 @@ nav {
   line-height: 0.3;
   font-size: 12px;
   align-self: center;
+  color: var(--main-gray);
 }
 a{
   color: var(--main-blue); 
