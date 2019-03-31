@@ -29,7 +29,7 @@ nav {
   padding-right: 10px;
 }
 .text-sect p{
-  line-height: 0.3;
+  line-height: 1.3;
   font-size: 12px;
   align-self: center;
   color: var(--main-gray);
@@ -76,7 +76,7 @@ main{
   -webkit-filter: grayscale(60%);
   filter: grayscale(60%); 
   filter: contrast(0%);
-  margin: 0 auto;
+  margin: 7px auto;
 }
 .favicon-sect{
   display: flex;
