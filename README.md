@@ -17,7 +17,7 @@ This project was completed in line with standards provided by [Microverse](https
 $ git clone https://github.com/johnsonsirv/intuit-signup-form.git
 ```
 
-> navigate ```sh cd ``` into the cloned directory
+> navigate ```cd ``` into the cloned directory
 
 ```sh
 $ cd intuit-signup-form
